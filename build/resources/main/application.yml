@@ -21,3 +21,13 @@ info: #이런설정을 남기고싶으면 info라고하는건 다남ㄴ느데
   app:
     name: hello-actuator #info밑에있는 외부 설정값을 보여줌
     company: yh
+
+logging:
+  level:
+    hello.controller: debug
+
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
